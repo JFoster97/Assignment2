@@ -7,6 +7,7 @@
 
 * {
     font-family: Verdana, "Trebuchet MS", Tahoma;
+    scroll-margin-right: 0px;
 }
 
 html {
@@ -20,6 +21,7 @@ h4,
 h5,
 h6 {
     text-decoration: none;
+    z-index: 90;
 }
 
 a {
@@ -43,6 +45,10 @@ body {
     
 }
 
+.label {
+    font-size: 2.5rem;
+}
+
 .heading .Head-Title {
     font-size: 4rem;
 }
@@ -52,14 +58,26 @@ body {
     display: flex;
     flex-direction: row;
     font-size: 2rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #abt {
     border-color: black;
+    padding: 20px;
 
 }
 
+#wrk {
+    padding: 20px;
+}
+
+#con {
+    padding: 20px;
+}
+
+#res {
+    padding: 20px;
+}
 
 .about {
     color: var(--skyblue);
@@ -67,6 +85,12 @@ body {
 
 p {
     color:var(--lightgreen);
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .project1 {
@@ -77,14 +101,56 @@ p {
     font-size: 4rem;
     text-decoration: none;
     color: forestgreen;
+    outline-color: black;
+    outline: 3px;
+    justify-content: center;
+    backdrop-filter: var(--offwhite);
 }
-
+.horiseon {
+    mix-blend-mode: screen;
+    margin: 0 auto;
+}
 .projects2 {
+    margin: 100px 300px 100px 100px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 1800px;
+    height: 800px;
+    font-size: 3.5rem;
+    margin-top: -100px;
 }
 
-#css {
-    border-color: black;
+.projects2 #css {
+    background-color: green;
+    width: 850px;
+    height: 400px;
+    margin-right: -25px;
+    margin-left: -25px;
+    mix-blend-mode: screen;
+}
+
+.projects2 #jvs {
+    background-color: green;
+    width: 850px;
+    height: 400px;
+    mix-blend-mode: screen;
+}
+
+.projects2 #react {
+    background-color: green;
+    width: 400px;
+    height: 350px;
+}
+
+.projects2 #p5 {
+    background-color: green;
+    width: 400x;
+    height: 350px;
+}
+
+.projects2 #p6 {
+    background-color: green;
+    width: 400px;
+    height: 350px;
 }
