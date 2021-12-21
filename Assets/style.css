@@ -1,0 +1,22 @@
+:root {
+--outer-space: #33393f;
+--skyblue: skyblue;
+--lightgreen: #93d193;
+}
+
+* {
+    background-color: var(--outer-space);
+}
+
+.about {
+    color: var(--skyblue);
+}
+
+p {
+    color:var(--lightgreen);
+}
+
+.links {
+    outline: 2px;
+    outline-color: white;  
+}
