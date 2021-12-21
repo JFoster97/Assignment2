@@ -2,11 +2,50 @@
 --outer-space: #33393f;
 --skyblue: skyblue;
 --lightgreen: #93d193;
+--offwhite: #fffafa; 
 }
 
 * {
-    background-color: var(--outer-space);
+    font-family: Verdana, "Trebuchet MS", Tahoma;
 }
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-image: url(https://www.shell.com/energy-and-innovation/the-energy-future/scenarios/shell-scenario-sky/_jcr_content/pagePromo/image.img.960.jpeg/1548184031017/clear-blue-sky.jpeg);
+    z-index: -10;
+}
+
+.heading {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: -20px -10px 10px -10px;
+    background-image: linear-gradient(
+        #2f4353 0%, #d2ccc4 74%
+    );
+    z-index: 15;
+    
+}
+
+.heading .Head-Title {
+    font-size: 4rem;
+}
+
+.heading .navbar {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+#abt {
+    border-color: black;
+
+}
+
 
 .about {
     color: var(--skyblue);
