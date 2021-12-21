@@ -13,6 +13,18 @@ html {
     font-size: 16px;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
 body {
     background-image: url(https://www.shell.com/energy-and-innovation/the-energy-future/scenarios/shell-scenario-sky/_jcr_content/pagePromo/image.img.960.jpeg/1548184031017/clear-blue-sky.jpeg);
     z-index: -10;
@@ -27,6 +39,7 @@ body {
         #2f4353 0%, #d2ccc4 74%
     );
     z-index: 15;
+    justify-content: space-between;
     
 }
 
@@ -39,6 +52,7 @@ body {
     display: flex;
     flex-direction: row;
     font-size: 2rem;
+    justify-content: space-between;
 }
 
 #abt {
@@ -55,7 +69,22 @@ p {
     color:var(--lightgreen);
 }
 
-.links {
-    outline: 2px;
-    outline-color: white;  
+.project1 {
+    background-image: url(https://media.cntraveler.com/photos/5eb18e42fc043ed5d9779733/16:9/w_2580,c_limit/BlackForest-Germany-GettyImages-147180370.jpg);
+    margin: 100px 300px 100px 100px;
+    width: 1700px;
+    height: 500px;
+    font-size: 4rem;
+    text-decoration: none;
+    color: forestgreen;
+}
+
+.projects2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#css {
+    border-color: black;
 }
