@@ -54,6 +54,7 @@ body {
 
 .heading .Head-Title {
     font-size: 4rem;
+    padding: 10px;
 }
 
 .heading .navbar {
@@ -61,7 +62,7 @@ body {
     display: flex;
     flex-direction: row;
     font-size: 2rem;
-    justify-content: space-around;
+    justify-content: baseline;
 }
 
 #abt {
@@ -88,11 +89,13 @@ body {
 
 p {
     color:var(--lightgreen);
+    margin: 10px 300px 20px 20px;
 }
 
 .boxes {
     display: flex;
     flex-direction: column;
+    margin-left: 100px;
 }
 
 .project1 {
@@ -106,11 +109,17 @@ p {
     outline: 3px;
     justify-content: left;
     backdrop-filter: var(--offwhite);
+    outline: white;
+    outline-style: solid;
+    outline-width: 1px;
+    margin: 15px 0px 0px 20px;
 }
 
 .horiseon {
     margin: 0 auto;
     display: inline;
+    mix-blend-mode: multiply;
+    padding: 10px;
 }
 .projects2 {
     display: flex;
@@ -118,29 +127,50 @@ p {
     font-size: 2rem;
     width: 1000px;
     justify-content: space-between;
+    margin: 10px 0px 20px 20px
 }
 
 
 .projects2 #css {
-    background-color: green;
-    width: 400px;
-    height: 150px;   
+    background-image: url(https://media.istockphoto.com/photos/colorful-hot-air-balloon-flying-above-the-clouds-picture-id1282443951?b=1&k=20&m=1282443951&s=170667a&w=0&h=OkjWgjLFyh3zbsA5oT-s0Lgp9nOAuhhE2nxpJTkhccM=);
+    width: 495px;
+    height: 150px; 
+    outline: white;
+    outline-style: solid;
+    outline-width: 1px;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 .projects2 #jvs {
-    background-color: green;
-    width: 400px;
+    background-image: url(https://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    width: 495px;
     height: 150px;
+    outline: white;
+    outline-style: solid;
+    outline-width: 1px;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 .projects2 #react {
     background-color: green;
-    width: 400px;
+    width: 495px;
     height: 150px;
+    outline: white;
+    outline-style: solid;
+    outline-width: 1px;
+    margin-top: 10px;
+    padding: 10px;
 }
 
 .projects2 #p5 {
     background-color: green;
-    width: 400px;
+    width: 495px;
     height: 150px;
+    outline: white;
+    outline-style: solid;
+    outline-width: 1px;
+    margin-top: 10px;
+    padding: 10px;
 }
