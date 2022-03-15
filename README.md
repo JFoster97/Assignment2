@@ -9,3 +9,5 @@ Had trouble making the whole box asset clickable as a link, so will make that ha
 Left extra boxes to have room for more projects
 
 Added a link to my first project "Let's get outta here"
+
+Added a link to my second project "Garden Proud"
